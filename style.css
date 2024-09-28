@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 35px 55px;
+  background-color: black;
+  color: white;
+}
+header h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+p {
+  font-weight: 300;
+  font-size: 18px;
+  color: lightgray;
+}
+hr {
+  width: 13% !important;
+  margin-top: 10px;
+  border-color: lightgray !important;
+}
+.btn {
+  border-radius: 0;
+  border: 1px solid lightgray;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  gap: 13px;
+}
+.display {
+  margin-bottom: 30px;
+}
+.black-btn {
+  background-color: black;
+  color: white;
+}
+.error-message {
+  color: red;
+  margin-bottom: 30px;
+}
